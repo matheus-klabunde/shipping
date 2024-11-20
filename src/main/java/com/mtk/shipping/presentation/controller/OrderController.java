@@ -1,11 +1,11 @@
-package com.mtk.shipping.presetation.controller;
+package com.mtk.shipping.presentation.controller;
 
 import com.mtk.shipping.application.service.OrderService;
 import com.mtk.shipping.domain.model.entity.Order;
 import com.mtk.shipping.domain.model.vo.Destination;
 import com.mtk.shipping.domain.strategy.ShippingStrategy;
-import com.mtk.shipping.presetation.dto.OrderRequest;
-import com.mtk.shipping.presetation.dto.OrderResponse;
+import com.mtk.shipping.presentation.dto.OrderRequest;
+import com.mtk.shipping.presentation.dto.OrderResponse;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.web.bind.annotation.*;

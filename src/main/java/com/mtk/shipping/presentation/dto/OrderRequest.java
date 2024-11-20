@@ -1,4 +1,4 @@
-package com.mtk.shipping.presetation.dto;
+package com.mtk.shipping.presentation.dto;
 
 public class OrderRequest
 {
